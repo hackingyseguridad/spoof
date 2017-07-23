@@ -1,0 +1,3 @@
+#!/bin/sh
+# Petciciones http GET con IP suplantada 200.200.200.200 por ejemplo
+curl --header "X-Forwarded-For: 200.200.200.200" "http://www.pagina.com" > /dev/null
