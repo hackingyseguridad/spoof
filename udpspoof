@@ -1,0 +1,3 @@
+#!/bin/sh
+echo "Uso: ./udpspoof IP_target Puerto IP_spoof"
+hping3 $1 -2 --spoof $2 -p $3 --fast
