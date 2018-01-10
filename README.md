@@ -31,3 +31,5 @@ También es posible que se cree una entrada de seguimiento de conexión. Dado qu
 Si suponemos que se trata de un paquete TCP SYN-ACK, y el enrutador lo hace de nuevo a pesar de no tener ningún sentido, el ISP reenviará el SYN-ACK. El SYN-ACK desencadenará una respuesta RST (suponiendo que el destino es funcional), el RST volverá a través de ambas entradas de seguimiento de conexión y se reenviará al host desde donde vino el SYN-ACK y limpiará la conexión.
 
 Como puede ver, hay muchos puntos en este flujo. Y es probable que haya algún resultado posible, que no he considerado.
+
+Si su enrutador no tiene ningún filtro (el escenario más común) cambiará la dirección de origen en el paquete a su propia dirección y colocará una entrada en una tabla interna para "recordar" a qué conexión pertenece el paquete. Tan pronto como reciba una respuesta, el enrutador mirará esa tabla interna para ver dónde enviar el paquete. Como la dirección no proviene de ninguna red interna, el enrutador enviará el paquete a la puerta de enlace predeterminada.
