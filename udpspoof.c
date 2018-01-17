@@ -1,3 +1,9 @@
+// (c) hackingyseguridad.com
+// Compilar a binario:
+// gcc udpspoof.c -o udpspoof
+// Ejecutar
+// ./udpspoof IP
+// envia paquetes a la IP con la ip origen suplantada
 #include <stdlib.h>
 #include <stdio.h>
 #include <string.h>
@@ -16,7 +22,6 @@
 #define head     153    
 #define u_head    41 
 #define level 0
-// Exploit Author : Hosein Askar
 u_long p_rec(u_char *);
 void running(u_char *);
 void fragmentation(int, u_long, u_long, u_short, u_short, u_short);
