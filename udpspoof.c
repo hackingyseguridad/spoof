@@ -1,4 +1,4 @@
-// (c) hackingyseguridad.com
+// (c) 2018 hackingyseguridad.com
 // Compilar a binario:
 // gcc udpspoof.c -o udpspoof
 // Ejecutar
