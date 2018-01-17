@@ -2,6 +2,7 @@
 // Compilar a binario:
 // gcc udpspoof.c -o udpspoof
 // Ejecutar
+// chmod 777 udpspoof
 // ./udpspoof IP
 // envia paquetes a la IP con la ip origen suplantada
 #include <stdlib.h>
