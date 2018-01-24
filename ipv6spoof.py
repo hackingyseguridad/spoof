@@ -1,8 +1,8 @@
 #!/usr/bin/python
 #Author : Antonio Taboada
 #Date: 10/10/2017
-#Filename: dnsfuzz.py
-#Purpose : Simple dns fuzz Ejecutar: python ipv6spoof.py IP;
+#Filename: ipv6spoof.py
+#Purpose : Simple IPv6 spoof origen IP ;
 import sys
 from scapy.all import *
 
