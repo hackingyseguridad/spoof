@@ -1,3 +1,4 @@
 #!/bin/sh
-# Petciciones http GET con IP suplantada 200.200.200.200 por ejemplo
+# Petciciones http GET con IP suplantada 200.200.200.200 por ejemplo 
+# curl -v --cookie "cookieName=cookieValue" --header "Accept-Language: es" --header "X-Forwarded-For: 200.200.200.200" "http://localhost:8080/somepage"
 curl --header "X-Forwarded-For: 200.200.200.200" "http://www.pagina.com" > /dev/null
