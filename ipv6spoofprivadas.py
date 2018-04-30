@@ -8,7 +8,7 @@ send(IPv6(src="::255.0.0.0", dst="2a02:9140:3c00:9200:20a7:3f07:d4a4:4096")/UDP(
 send(IPv6(src="0200::1", dst="2a02:9140:3c00:9200:20a7:3f07:d4a4:4096")/UDP(dport=53),iface="eth0", count=999)
 send(IPv6(src="::", dst="2a02:9140:3c00:9200:20a7:3f07:d4a4:4096")/UDP(dport=53),iface="eth0", count=999)
 send(IPv6(src="::1", dst="2a02:9140:3c00:9200:20a7:3f07:d4a4:4096")/UDP(dport=53),iface="eth0", count=999)
-send(IPv6(src="0:0:0:0:0:FFFF::", dst="2a02:9140:3c00:9200:20a7:3f07:d4a4:4096")/UDP(dport=53),iface="eth0", count=999)
+send(IPv6(src="::1.1.1.1", dst="2a02:9140:3c00:9200:20a7:3f07:d4a4:4096")/UDP(dport=53),iface="eth0", count=999)
 send(IPv6(src="0100::", dst="2a02:9140:3c00:9200:20a7:3f07:d4a4:4096")/UDP(dport=53),iface="eth0", count=999)
 send(IPv6(src="0200::", dst="2a02:9140:3c00:9200:20a7:3f07:d4a4:4096")/UDP(dport=53),iface="eth0", count=999)
 send(IPv6(src="2001:db8::", dst="2a02:9140:3c00:9200:20a7:3f07:d4a4:4096")/UDP(dport=53),iface="eth0", count=999)
