@@ -5,8 +5,8 @@ ipdestino = "2a02:9140:3c01:1000:7e20:fd5d:dc94:b192"
 
 send((IPv6(src="2001::1", dst=)/UDP(dport=53)),iface="eth0", count=9999)
 send((IPv6(src="::224.0.0.1", dst=ipdestino)/UDP(dport=53)),iface="eth0", count=9999)
-send((IPv6(src="::127.0.0.1", dst=ipdestino)/UDP(dport=53),iface="eth0", count=9999)
-send((IPv6(src="::255.0.0.0", dst=ipdestino)/UDP(dport=53),iface="eth0", count=9999)
+send((IPv6(src="::127.0.0.1", dst=ipdestino)/UDP(dport=53)),iface="eth0", count=9999)
+send((IPv6(src="::255.0.0.0", dst=ipdestino)/UDP(dport=53)),iface="eth0", count=9999)
 send((IPv6(src="0200::1", dst=ipdestino)/UDP(dport=53)),iface="eth0", count=9999)
 send((IPv6(src="::", dst=ipdestino)/UDP(dport=53)),iface="eth0", count=9999)
 send((IPv6(src="::1", dst=ipdestino)/UDP(dport=53)),iface="eth0", count=9999)
