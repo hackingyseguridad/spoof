@@ -1,9 +1,11 @@
 import sys
 from scapy.all import *
 
-send(IPv6(src="2001::1", dst="2a02:9140:3c00:9200:20a7:3f07:d4a4:4096")/UDP(dport=53),iface="eth0", count=999)
-send(IPv6(src="::224.0.0.1", dst="2a02:9140:3c00:9200:20a7:3f07:d4a4:4096")/UDP(dport=53),iface="eth0", count=999)
-send(IPv6(src="::127.0.0.1", dst="2a02:9140:3c00:9200:20a7:3f07:d4a4:4096")/UDP(dport=53),iface="eth0", count=999)
+ipdestino = "2a02:9140:3c01:1000:7e20:fd5d:dc94:b192"
+
+send((IPv6(src="2001::1", dst="2a02:9140:3c00:9200:20a7:3f07:d4a4:4096")/UDP(dport=53)),iface="eth0", count=999)
+send((IPv6(src="::224.0.0.1", dst="2a02:9140:3c00:9200:20a7:3f07:d4a4:4096")/UDP(dport=53)),iface="eth0", count=999)
+send((IPv6(src="::127.0.0.1", dst="2a02:9140:3c00:9200:20a7:3f07:d4a4:4096")/UDP(dport=53),iface="eth0", count=999)
 send(IPv6(src="::255.0.0.0", dst="2a02:9140:3c00:9200:20a7:3f07:d4a4:4096")/UDP(dport=53),iface="eth0", count=999)
 send(IPv6(src="0200::1", dst="2a02:9140:3c00:9200:20a7:3f07:d4a4:4096")/UDP(dport=53),iface="eth0", count=999)
 send(IPv6(src="::", dst="2a02:9140:3c00:9200:20a7:3f07:d4a4:4096")/UDP(dport=53),iface="eth0", count=999)
