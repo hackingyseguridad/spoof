@@ -6,12 +6,12 @@
 import sys
 from scapy.all import *
 
-ipdestino = "2a02:9140:3c01:1000:7e20:fd5d:dc94:b192"
+ipdestino = "2002:9140:3c01:1000:7e20:fd5d:dc94:b192"
 
-iporigen = "2a02:9140:3c01:1100:20b:dbff:fe53:37a1"
+iporigen = "2002:9140:3c01:1100:20b:dbff:fe53:37a1"
 ipv6 = IPv6(src=iporigen, dst=ipdestino)/ICMPv6EchoRequest()
 send(ipv6,iface="enp1s12", count=999)
-iporigen = "2a02:9140:3c01:e00:20b:dbff:fe53:37a3"
+iporigen = "2002:9140:3c01:e00:20b:dbff:fe53:37a3"
 ipv6 = IPv6(src=iporigen, dst=ipdestino)/ICMPv6EchoRequest()
 send(ipv6,iface="enp1s12", count=999)
 iporigen = "2001::1"
