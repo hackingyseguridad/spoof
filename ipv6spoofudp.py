@@ -26,7 +26,6 @@ send((IPv6(src=iporigen, dst=destino)/UDP(sport=5353,dport=53)),iface="eth0", co
 iporigen = "::255.0.0.0"
 print iporigen
 send((IPv6(src=iporigen, dst=destino)/UDP(sport=5353,dport=53)),iface="eth0", count=9999)
-print iporigen
 iporigen = "0200::1"
 print iporigen
 send((IPv6(src=iporigen, dst=destino)/UDP(sport=5353,dport=53)),iface="eth0", count=9999)
