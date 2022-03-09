@@ -12,5 +12,5 @@ C = 80 # source port
 D = 80 # destination port
 payload = "hackingyseguridad.com" # packet payload
 
-spoofed_packet = IP(src=A, dst=B) / TCP(sport=C, dport=D, flags='SA') / payload
+spoofed_packet = IP(src=A, dst=B) / TCP(sport=C, dport=D, flags='SA') / payload  # flags= F, S, R, P, A, U, E, C, N
 send(spoofed_packet)
