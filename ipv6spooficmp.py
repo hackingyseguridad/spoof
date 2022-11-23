@@ -5,6 +5,17 @@ ipv6 = IPv6(dst=ipdestino)/ICMPv6EchoRequest()
 send(ipv6,iface="wlo1", count=9)
 iporigen = "2002:9140:3c01:1100:20b:dbff:fe53:37a1"
 ipv6 = IPv6(src=iporigen, dst=ipdestino)/ICMPv6EchoRequest()
+send(ipv6,iface="wlo1", count=99999)
+iporigen = "2a02:9130:8420:39::33"
+ipv6 = IPv6(src=iporigen, dst=ipdestino)/ICMPv6EchoRequest()
+send(ipv6,iface="wlo1", count=99999)
+
+iporigen = "2002:9140:3c01:1100:20b:dbff:fe53:37a1"
+ipv6 = IPv6(src=iporigen, dst=ipdestino)/ICMPv6EchoRequest()
+send(ipv6,iface="wlo1", count=9999)
+
+iporigen = "2002:9140:3c01:1100:20b:dbff:fe53:37a1"
+ipv6 = IPv6(src=iporigen, dst=ipdestino)/ICMPv6EchoRequest()
 send(ipv6,iface="wlo1", count=9999)
 iporigen = "2002:9140:3c01:e00:20b:dbff:fe53:37a3"
 ipv6 = IPv6(src=iporigen, dst=ipdestino)/ICMPv6EchoRequest()
