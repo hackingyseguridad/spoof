@@ -1,6 +1,6 @@
 import sys
 from scapy.all import *
-ipdestino = "2a02:9140:3c00:7b00:6f99:c2bf:7d3d:dc22"
+ipdestino = "2a02:9000::bbbb"
 ipv6 = IPv6(dst=ipdestino)/ICMPv6EchoRequest()
 send(ipv6,iface="wlo1", count=3)
 iporigen = "2a02:9140:3c00:7b00:6f99:c2bf:7d3d:dc22"
