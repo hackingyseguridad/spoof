@@ -26,3 +26,5 @@ echo
 nmap -Pn -S $1 -p 23 -sV $1
 nmap -Pn -S 127.0.0.1 -p 23 -sV $1
 nmap -Pn -S localhost -p 23 -sV $1
+
+
