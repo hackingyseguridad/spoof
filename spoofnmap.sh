@@ -13,8 +13,8 @@ cat << "INFO"
 ╬═╬
 ╬═╬
 ╬═╬
-╬═╬    spoof V.1.0
-╬═╬    hackingyseguridad.com 2025
+╬═╬    nmap spoof V.1.0
+╬═╬    hackingyseguridad.com 
 ╬═╬⛑/
 ╬═╬/▌
 ╬═╬/  \
