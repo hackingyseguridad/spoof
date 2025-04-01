@@ -1,6 +1,7 @@
-# spoof ip tools test
+## spoof ip tools test
 # 
-# www.hackingyseguridad.com
+## http://www.hackingyseguridad.com/
+#
 
 Hay tres comportamientos probables a medida que el paquete se envía desde la LAN al enrutador:
 
