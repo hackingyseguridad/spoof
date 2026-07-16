@@ -1,4 +1,4 @@
-# 🎭 Spoof - Herramientas de Spoofing IPv4 e IPv6
+### Spoof - herramientas de spoofing IPv4 e IPv6
 
 [![GitHub](https://img.shields.io/badge/GitHub-hackingyseguridad%2Fspoof-informational?logo=github)](https://github.com/hackingyseguridad/spoof)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
@@ -10,10 +10,10 @@ Colección profesional de herramientas para realizar pruebas de **IP Spoofing** 
 
 ---
 
-## 📋 Tabla de Contenidos
+### Tabla de Contenidos
 
 - [Descripción General](#descripción-general)
-- [⚠️ Advertencia Legal](#⚠️-advertencia-legal)
+- [Advertencia Legal](#⚠️-advertencia-legal)
 - [Características](#características)
 - [Plataformas Soportadas](#plataformas-soportadas)
 - [Requisitos](#requisitos)
@@ -32,7 +32,7 @@ Colección profesional de herramientas para realizar pruebas de **IP Spoofing** 
 
 ---
 
-## 📖 Descripción General
+### Descripción
 
 **Spoof** es una colección integral de herramientas de prueba de penetración diseñadas para realizar **IP Spoofing** (suplantación de direcciones IP). Este repositorio contiene 16 scripts especializados que permiten:
 
@@ -47,7 +47,7 @@ Colección profesional de herramientas para realizar pruebas de **IP Spoofing** 
 
 ---
 
-## ⚠️ Advertencia Legal
+##@ Advertencia legal
 
 **DISCLAIMER:** 
 
@@ -68,7 +68,7 @@ Este software está diseñado únicamente para:
 
 ---
 
-## ✨ Características
+### ✨ Características
 
 | Característica | Descripción |
 |---|---|
@@ -85,7 +85,7 @@ Este software está diseñado únicamente para:
 
 ---
 
-## 🖥️ Plataformas Soportadas
+### Plataformas soportadas
 
 | Sistema Operativo | Scripts | Requisitos |
 |---|---|---|
@@ -96,7 +96,7 @@ Este software está diseñado únicamente para:
 
 ---
 
-## 📦 Requisitos
+### requisitos
 
 ### Por Tipo de Script
 
@@ -196,7 +196,7 @@ pip3 install scapy
 
 ---
 
-## 📥 Instalación
+### Instalación
 
 ### 1. Clonar el Repositorio
 
@@ -245,7 +245,7 @@ sudo make install
 
 ---
 
-## 📁 Estructura del Repositorio
+### Estructura del repositorio
 
 ```
 spoof/
@@ -282,7 +282,7 @@ spoof/
 
 ---
 
-## 📝 Descripción de Scripts
+### Scripts
 
 ### Tabla Maestra de Herramientas
 
@@ -307,7 +307,7 @@ spoof/
 
 ---
 
-## 🔍 Detalles de Cada Script
+### Script
 
 ### SCRIPTS PYTHON
 
@@ -608,7 +608,7 @@ sudo ./udpspoof 10.0.0.100 192.168.1.1 53 5000
 
 ---
 
-## 📊 Comparativa Técnica Avanzada
+### Comparativa 
 
 | Aspecto | Python | Perl | Shell | C |
 |--------|--------|------|-------|---|
@@ -622,7 +622,7 @@ sudo ./udpspoof 10.0.0.100 192.168.1.1 53 5000
 
 ---
 
-## 🚀 Ejemplos de Uso
+##€ Ejemplos de uso
 
 ### Escenario 1: Test IPv6 Básico
 
@@ -677,7 +677,7 @@ sudo ./udpspoof 192.168.1.100 10.0.0.1 53 5000
 
 ---
 
-## 🧠 Acerca de IP Spoofing
+### Acerca de IP Spoofing
 
 ### ¿Qué es IP Spoofing?
 
@@ -758,7 +758,7 @@ Cuando se envía un paquete spoofed desde la LAN al router:
 
 ---
 
-## 🛡️ Defensa contra Spoofing
+### Defensa contra Spoofing
 
 ### 1. Filtrado Ingress (BCP 38/RFC 2827)
 
@@ -815,9 +815,9 @@ no ip dhcp snooping information option
 
 ---
 
-## 🔒 Notas de Seguridad
+### Notas de Seguridad
 
-### ⚠️ Importantes
+### Importantes
 
 1. **Autorización Legal**: Obtener consentimiento escrito
 2. **Ambiente Controlado**: Usar solo en redes de prueba
@@ -847,40 +847,7 @@ El uso de estas herramientas sin autorización viola:
 
 ---
 
-## 🤝 Contribuciones
-
-Se aceptan contribuciones:
-
-1. **Forks**: Hacer fork del repositorio
-2. **Branch**: Crear rama (`git checkout -b feature/nueva-herramienta`)
-3. **Commit**: Hacer commit (`git commit -m 'Add nueva herramienta'`)
-4. **Push**: Push a la rama (`git push origin feature/nueva-herramienta`)
-5. **PR**: Abrir Pull Request
-
-### Áreas de Mejora Bienvenidas:
-
-- ✅ Nuevas técnicas de spoofing
-- ✅ Soporte IPv6 expandido
-- ✅ Optimizaciones de rendimiento
-- ✅ Documentación adicional
-- ✅ Corrección de bugs
-- ✅ Scripts nuevos en otros lenguajes
-
----
-
-## 👨‍💻 Autor
-
-| Propiedad | Valor |
-|-----------|-------|
-| **Autor** | Antonio Taboada |
-| **Website** | [www.hackingyseguridad.com](http://www.hackingyseguridad.com/) |
-| **Repositorio** | [github.com/hackingyseguridad/spoof](https://github.com/hackingyseguridad/spoof) |
-| **Commits** | 82+ versiones |
-| **Categoría** | Herramientas de Seguridad / Pentesting |
-
----
-
-## 📚 Referencias
+### 📚 Referencias
 
 ### Documentación Técnica
 
@@ -907,7 +874,7 @@ Se aceptan contribuciones:
 
 ---
 
-## 📄 Licencia
+### 📄 Licencia
 
 Este proyecto está bajo licencia MIT. Ver archivo `LICENSE` para más detalles.
 
@@ -919,27 +886,7 @@ Copyright (c) 2020 Antonio Taboada / hackingyseguridad
 Permission is hereby granted, free of charge, to any person obtaining a copy...
 ```
 
----
-
-## ⭐ Soporte y Feedback
-
-Si encuentras esta herramienta útil:
-- ⭐ Dale una estrella en GitHub
-- 🐛 Reporta bugs en Issues
-- 💡 Sugiere mejoras
-- 📧 Contacta al autor
-
----
-
-## 📞 Contacto
-
-- 🌐 **Website**: [www.hackingyseguridad.com](http://www.hackingyseguridad.com/)
-- 🐙 **GitHub**: [@hackingyseguridad](https://github.com/hackingyseguridad)
-- 📧 Consulta el sitio web para otras formas de contacto
-
----
-
-## ⚖️ Tabla Resumen: Cómo Usar Correctamente
+### Tabla Resumen: Cómo Usar Correctamente
 
 | Escenario | ¿Permitido? | Requisitos |
 |-----------|-----------|-----------|
@@ -960,12 +907,15 @@ Si encuentras esta herramienta útil:
 
 ---
 
-**AVISO CRÍTICO:**
+**AVISO LEGAL:**
 
 Este software es SOLO para investigación y educación en sistemas autorizados.
 
 Cualquier USO NO AUTORIZADO es ILEGAL.
 
-La elección es tuya. Aceptas las consecuencias.
-
 ---
+
+#
+http://www.hackingyseguridad.com/
+#
+
