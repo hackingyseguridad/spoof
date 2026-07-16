@@ -26,8 +26,6 @@ Colección profesional de herramientas para realizar pruebas de **IP Spoofing** 
 - [Comportamiento del Enrutador](#comportamiento-del-enrutador)
 - [Defensa contra Spoofing](#defensa-contra-spoofing)
 - [Notas de Seguridad](#notas-de-seguridad)
-- [Contribuciones](#contribuciones)
-- [Autor](#autor)
 - [Referencias](#referencias)
 
 ---
